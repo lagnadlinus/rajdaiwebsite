@@ -75,7 +75,7 @@ Needs to provide:
 
 📁 Current Project Structure
 
-<pre> <code>```text
+<pre> <code>
 rajdaiwebsite/
 ├── public/
 ├── src/
@@ -89,7 +89,7 @@ rajdaiwebsite/
 ├── package.json
 └── README.md
 
-```</code> </pre>
+</code> </pre>
 
 🧾 Licensing & Legal Info (if client needs it)
 
