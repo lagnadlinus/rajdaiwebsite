@@ -75,6 +75,7 @@ Needs to provide:
 
 📁 Current Project Structure
 
+<pre> <code>```text
 rajdaiwebsite/
 ├── public/
 ├── src/
@@ -87,6 +88,9 @@ rajdaiwebsite/
 ├── tailwind.config.js
 ├── package.json
 └── README.md
+
+```</code> </pre>
+
 🧾 Licensing & Legal Info (if client needs it)
 
 Company ABN: [TO BE ADDED BY BINAY]
@@ -101,9 +105,6 @@ Will be updated once client photos and graphics are received from Binay and Nite
 Hosting link will be added after deployment (Netlify/Vercel/GitHub Pages)
 📬 Contact
 
-Have suggestions or want to contribute? Contact us:
+Have suggestions or want to contribute? Contact me:
 
-Sunil Dangal – sunil@example.com
-Binay – binay@example.com
-Nitesh – nitesh@example.com
 This project is still in progress and actively updated. Please help complete the required sections so we can launch a professional client-ready version soon.
