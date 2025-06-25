@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container flex items-center justify-between py-4">
         {/* Logo / Brand */}
         <a href="#" className="text-xl font-bold text-neutral-100">
-          <img src="/src/assets/images/logo.png" alt="Logo" />
+          <img src="/src/assets/images/logo.svg" alt="Logo" className="h-20 w-auto"/>
         </a>
 
         {/* Desktop Nav */}

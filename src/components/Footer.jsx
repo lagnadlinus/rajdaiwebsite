@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container text-center text-sm">
         <p>&copy; {new Date().getFullYear()} Choden Landscaping & Handyman Services. All rights reserved.</p>
         <p className="mt-2">
-          Website created by <a href="" className="text-brand-accent hover:underline">Green Stack Services</a>
+          Website created by <a href="" className="text-brand-accent hover:underline">Ground Stack Services</a>
         </p>
       </div>
     </footer>

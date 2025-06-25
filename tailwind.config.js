@@ -11,10 +11,10 @@ export default {
     extend: {
       colors: {
         brand: {
-          primary: '#2F855A', // Deep green - trust, nature
-          secondary: '#8B5E3C', // Earthy brown - timber, soil
-          accent: '#A3D977', // Fresh leafy green - vitality
-          highlight: '#F6AD55', // Warm yellow - attention
+          primary: '#2F855A', // Deep green - trust, nature -- Brand Color
+          secondary: '#8B5E3C', // Earthy brown - timber, soil  -- Barnd Color
+          accent: '#A3D977', // Fresh leafy green - vitality  -- Brand Color
+          highlight: '#F6AD55', // Warm yellow - attention -- Brand Color
           light: '#FAF9F6', // Soft neutral background
           dark: '#1F2937', // Strong deep dark - nav/footer
         },
