@@ -1,27 +1,24 @@
-import ButtonSvg from '../assets/svg/ButtonSvg.jsx';
+const Button = ({ children, href, className = '', ...props }) => {
+  const baseStyle =
+    'inline-block px-6 py-2 rounded-xl font-semibold text-sm transition duration-200';
+  const defaultStyle =
+    'bg-brand-primary text-white hover:bg-brand-secondary shadow-md';
 
-const Button = ({ className, href, onClick, children, px, white }) => {
-  // Construct Tailwind classes
-  const classes = `button relative inline-flex items-center justify-center h-11 transition-colors hover:text-brand-highlight ${px || "px-7"} ${white ? "text-brand-dark" : "text-neutral-100"} ${className || ""}`;
-  const spanClasses = 'relative z-10';
+  if (href) {
+    return (
+      <a href={href} className={`${baseStyle} ${defaultStyle} ${className}`} {...props}>
+        {children}
+      </a>
+    );
+  }
 
-  // Render as <button>
-  const renderButton = () => (
-    <button className={classes} onClick={onClick}>
-      <span className={spanClasses}>{children}</span>
-      <ButtonSvg white={white} />
+  return (
+    <button className={`${baseStyle} ${defaultStyle} ${className}`} {...props}>
+      {children}
     </button>
   );
-
-  // Render as <a>
-  const renderLink = () => (
-    <a href={href} className={classes}>
-      <span className={spanClasses}>{children}</span>
-      <ButtonSvg white={white} />
-    </a>
-  );
-
-  return href ? renderLink() : renderButton();
 };
 
 export default Button;
+
+

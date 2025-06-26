@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "./Button";
+import { FaLeaf } from "react-icons/fa";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +29,8 @@ const Header = () => {
           <a href="#contact" className="text-neutral-100 hover:text-brand-accent transition">
             Contact
           </a>
-          <Button href="#contact" className="ml-4 px-5 py-2 bg-brand-accent text-brand-dark rounded hover:brightness-110">
+          <Button href="#contact" className="ml-4 px-5 py-2 bg-brand-accent text-brand-dark rounded hover:brightness-110 flex items-center gap-2">
+            <FaLeaf />
             Get a Quote
           </Button>
         </nav>

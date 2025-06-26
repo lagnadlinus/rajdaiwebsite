@@ -40,6 +40,8 @@ export default {
 
       spacing: {
         'section': '5rem',
+        'section-sm': '3rem',
+        'section-lg': '7rem',
         'container': '1.5rem',
       },
 
@@ -60,6 +62,7 @@ export default {
 
       backgroundImage: {
         'hero-pattern': "url('/src/assets/images/hero-bg.jpg')",
+        'hero-gradient': "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7))",
         'wood-texture': "url('/src/assets/images/wood-texture.jpg')",
         'grass-texture': "url('/src/assets/images/grass.jpg')",
       },

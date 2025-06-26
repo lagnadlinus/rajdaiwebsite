@@ -36,6 +36,15 @@ body {
 /* -------------------------------
    Headings
 ---------------------------------- */
+
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+url('...');
+
+
+.text-glow {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
 h1,
 .h1 {
     @apply section-title;
@@ -88,4 +97,11 @@ a {
 
 .no-scrollbar::-webkit-scrollbar {
     display: none;
+}
+
+/* -------------------------------
+   Hover Effects on Cards
+---------------------------------- */
+.card-shadow {
+    @apply shadow-card hover:shadow-xl transition-shadow duration-300 ease-in-out transform hover:-translate-y-1;
 }
