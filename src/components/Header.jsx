@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Button from "./Button";
 import { FaLeaf } from "react-icons/fa";
+import { HiMenu, HiX } from 'react-icons/hi'; {/* Importing hamburger menu icons and cross icons from react-icons library */}
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,10 +41,12 @@ const Header = () => {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-neutral-100 focus:outline-none"
+            className="focus:outline-none"
             aria-label="Toggle menu"
           >
-            {isMenuOpen ? "✖" : "☰"}
+            <span className="text-white text-2xl font-bold leading-none transition-transform duration-200 hover:scale-110">
+              {isMenuOpen ? <HiX /> : <HiMenu />}
+            </span>
           </button>
         </div>
       </div>
@@ -50,7 +54,7 @@ const Header = () => {
       {/* Mobile Dropdown Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-brand-dark border-t border-neutral-700">
-          <nav className="flex flex-col space-y-3 px-6 py-4">
+          <nav className="flex flex-col items-center justify-center space-y-4 px-6 py-6 text-center">
             <a href="#home" className="text-neutral-100 hover:text-brand-accent transition">
               Home
             </a>
