@@ -1,13 +1,22 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Button from "./Button";
 import { FaLeaf } from "react-icons/fa";
 import { HiMenu, HiX } from 'react-icons/hi'; {/* Importing hamburger menu icons and cross icons from react-icons library */}
+
 
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+  // ✅ Lock scroll when menu is open
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpen ? 'hidden' : '';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMenuOpen]);
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-brand-dark/90 backdrop-blur-sm border-b border-neutral-600">
@@ -55,19 +64,19 @@ const Header = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-brand-dark border-t border-neutral-700">
           <nav className="flex flex-col items-center justify-center space-y-4 px-6 py-6 text-center">
-            <a href="#home" className="text-neutral-100 hover:text-brand-accent transition">
+            <a href="#home" onClick={() => setIsMenuOpen(false)} className="text-neutral-100 hover:text-brand-accent transition">
               Home
             </a>
-            <a href="#services" className="text-neutral-100 hover:text-brand-accent transition">
+            <a href="#services" onClick={() => setIsMenuOpen(false)} className="text-neutral-100 hover:text-brand-accent transition">
               Services
             </a>
-            <a href="#about" className="text-neutral-100 hover:text-brand-accent transition">
+            <a href="#about" onClick={() => setIsMenuOpen(false)} className="text-neutral-100 hover:text-brand-accent transition">
               About
             </a>
-            <a href="#contact" className="text-neutral-100 hover:text-brand-accent transition">
+            <a href="#contact" onClick={() => setIsMenuOpen(false)} className="text-neutral-100 hover:text-brand-accent transition">
               Contact
             </a>
-            <Button href="#contact" className="mt-2 px-5 py-2 bg-brand-accent text-brand-dark rounded hover:brightness-110">
+            <Button href="#contact" onClick={() => setIsMenuOpen(false)} className="mt-2 px-5 py-2 bg-brand-accent text-brand-dark rounded hover:brightness-110">
               Get a Quote
             </Button>
           </nav>
