@@ -1,6 +1,6 @@
 # 🌱 Rajdai Landscaping & Handyman Services – Company Website
 
-This is the official website for **Rajdai Landscaping & Handyman Services**, developed using **React**, **Vite**, and **Tailwind CSS**. It’s a single-page application built to promote our business, showcase our services, and build trust with potential clients.
+This is the official website for **Rajdai Landscaping & Handyman Services**, developed using **React**, **Vite**, and **Tailwind CSS**. It’s a single-page application built to promote business, showcase services, and build trust with potential clients.
 
 ---
 
@@ -40,38 +40,6 @@ npm install
 npm run dev
 
 
-👥 Team & Contributions
-
-🔸 Sunil Dangal
-Developer & Project Coordinator
-Responsibilities:
-Full frontend development (React + Tailwind)
-Hosting, GitHub repo management
-Project structure, responsiveness, optimisation
-
-🔸 Binay [TO-DO]
-Client Relations & Content Gathering
-Needs to provide:
-✅ Business Name
-✅ ABN Number (if client wants it on website)
-✅ List of services offered
-✅ Real photos of completed client jobs
-✅ About section details:
-When Choden started working in the industry
-What kind of work he has done
-Skills developed over time
-Past companies or job experience
-Years of experience
-This info will help us write a strong “About Us” section that builds trust with future clients.
-
-🔸 Nitesh [TO-DO]
-Graphic Designer / Visual Assets
-Needs to provide:
-✅ Logo design in SVG or PNG
-✅ Color palette suggestions (primary, secondary, accent)
-✅ Optional: Banners, favicon, or illustrations
-✅ Font pairing suggestions (if any)
-
 
 📁 Current Project Structure
 
@@ -91,20 +59,14 @@ rajdaiwebsite/
 
 </code> </pre>
 
-🧾 Licensing & Legal Info (if client needs it)
-
-Company ABN: [TO BE ADDED BY BINAY]
-
-All logos and photos are © Rajdai Landscaping & Handyman Services unless otherwise noted.
-Website built and maintained by Sunil Dangal.
-📸 Preview Screenshots (Add after Logo + Photos)
-
-Will be updated once client photos and graphics are received from Binay and Nitesh.
-🌐 Live Preview
-
-Hosting link will be added after deployment (Netlify/Vercel/GitHub Pages)
-📬 Contact
 
 Have suggestions or want to contribute? Contact me:
 
-This project is still in progress and actively updated. Please help complete the required sections so we can launch a professional client-ready version soon.
+This project is still in progress and actively updated.
+
+Special Thanks to: 
+
+- Johannes Plenio for close up photo of Green Grass Field. (https://www.pexels.com/photo/closeup-photo-of-green-grass-field-1423601/)
+
+- FWStudio for Brown Wooden Floor photo. (https://www.pexels.com/photo/brown-wooden-floor-172292/)
+
