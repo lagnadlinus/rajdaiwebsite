@@ -21,11 +21,11 @@ const App = () => {         {/* Declaring App with es6 const function */}
             <div className="absolute inset-0 bg-black bg-opacity-40"></div> {/* Add subtle overlay */}
             <div className="relative z-10">
               <h1 className="text-white text-4xl md:text-5xl font-bold drop-shadow-lg">
-                Welcome to <span className="text-brand-accent">Choden Landscaping</span>
+                Welcome to <span className="text-brand-accent">Choden Brothers Services</span>
               </h1>
 
               <p className="mt-4 text-lg md:text-xl text-gray-200">
-                Transforming Hobart's outdoor spaces with care and precision.
+                Transforming Hobart's outdoor spaces with care and Quality.
               </p>
               <Button href="#contact" className="mt-6 btn-primary">Call Us</Button>
             </div>
@@ -125,7 +125,7 @@ const App = () => {         {/* Declaring App with es6 const function */}
               </p>
               <div className="space-y-2 text-lg font-semibold text-brand-accent">
                 <p>📞 <a href="tel:0415977783" className="hover:underline ">0415 977 783</a></p>
-                <p>📧 <a href="mailto:info@chodengardens.com" className="hover:underline">info@chodengardens.com</a></p>
+                <p>📧 <a href="mailto:chodenbrothersservices@gmail.com" className="hover:underline">chodenbrothersservices@gmail.com</a></p>
               </div>
               <Button href="tel:0415977783" className="mt-4">
                 Call Now

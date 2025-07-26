@@ -4,7 +4,6 @@ import { FaLeaf } from "react-icons/fa";
 import { HiMenu, HiX } from 'react-icons/hi'; {/* Importing hamburger menu icons and cross icons from react-icons library */}
 
 
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -22,8 +21,9 @@ const Header = () => {
     <header className="fixed top-0 left-0 w-full z-50 bg-brand-dark/90 backdrop-blur-sm border-b border-neutral-600">
       <div className="container flex items-center justify-between py-4">
         {/* Logo / Brand */}
-        <a href="#" className="text-xl font-bold text-neutral-100">
-          <img src="/src/assets/images/logo.svg" alt="Logo" className="h-20 w-auto"/>
+        <a href="#" className="flex items-center space-x-3 text-neutral-100">
+          <img src="/src/assets/images/logo.svg" alt="Logo" className="h-28 w-auto"/>
+          <span className="text-1xl font-semibold whitespace-nowrap">Choden Brother's Services</span>
         </a>
 
         {/* Desktop Nav */}
