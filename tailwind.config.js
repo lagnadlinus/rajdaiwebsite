@@ -65,6 +65,7 @@ export default {
         'hero-gradient': "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7))",
         'wood-texture': "url('/src/assets/images/wood-texture.jpg')",
         'grass-texture': "url('/src/assets/images/grass.jpg')",
+        'logo': "url('/src/assets/images/logo.svg')",
       },
 
       transitionTimingFunction: {

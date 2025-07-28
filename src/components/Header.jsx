@@ -22,7 +22,11 @@ const Header = () => {
       <div className="container flex items-center justify-between py-4">
         {/* Logo / Brand */}
         <a href="#" className="flex items-center space-x-3 text-neutral-100">
-          <img src="/src/assets/images/logo.svg" alt="Logo" className="h-28 w-auto"/>
+          <div
+            className="bg-logo bg-no-repeat bg-center bg-contain h-28 w-28 flex-shrink-0" // Use bg-logo and set dimensions
+            role="img" // Indicate it's an image for accessibility
+            aria-label="Choden Brother's Services Logo" // Accessible label
+          ></div>
           <span className="text-1xl font-semibold whitespace-nowrap">Choden Brother's Services</span>
         </a>
 
