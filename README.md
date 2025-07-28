@@ -1,13 +1,13 @@
-# 🌱 Rajdai Landscaping & Handyman Services – Company Website
+# 🌱 Choden Brothers Services – Company Website
 
-This is the official website for **Rajdai Landscaping & Handyman Services**, developed using **React**, **Vite**, and **Tailwind CSS**. It’s a single-page application built to promote business, showcase services, and build trust with potential clients.
+This is the official website for **Choden Brothers Services**, developed using **React**, **Vite**, and **Tailwind CSS**. It’s a single-page application built to promote business, showcase services, and build trust with potential clients.
 
 ---
 
 ## 📌 Project Overview
 
 This website aims to:
-- Introduce the company professionally to clients
+- Introduce the company to clients
 - Display services offered with icons and descriptions
 - Share company experience and trust-building story
 - Provide contact info and prompt action (Call Now, Get a Quote)
