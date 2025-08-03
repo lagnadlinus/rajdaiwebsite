@@ -19,11 +19,11 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-brand-dark/90 backdrop-blur-sm border-b border-neutral-600">
-      <div className="container flex items-center justify-between py-4">
+      <div className="container flex items-center justify-between py-0">
         {/* Logo / Brand */}
         <a href="#" className="flex items-center space-x-3 text-neutral-100">
           <div
-            className="bg-logo bg-no-repeat bg-center bg-contain h-40 w-40 flex-shrink-0" // Use bg-logo and set dimensions
+            className="bg-logo bg-no-repeat bg-center bg-contain h-32 w-32 flex-shrink-0" // Use bg-logo and set dimensions
             role="img" // Indicate it's an image for accessibility
             aria-label="Choden Brother's Services Logo" // Accessible label
           ></div>
