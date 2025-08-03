@@ -10,7 +10,7 @@ import Button from './components/Button';
 const App = () => {         {/* Declaring App with es6 const function */} 
   return (
     <>                      {/* Wrapping inside react fragment to add more elements later */}
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden scroll-smooth">
+      <div className="pt-[8rem] lg:pt-[8rem] overflow-hidden scroll-smooth">
         <Header />  {/* Importing Header component from components folder */}
         <main>
 
