@@ -1,6 +1,6 @@
 // src/components/Services.jsx
 import React from 'react';
-import ServiceFeature from "./ServiceFeature"; 
+import AnimatedServiceFeature from "./AnimatedServiceFeature";
 
 // ✅ Import all your service images
 import gardeningImage from '../assets/services/gardening.jpg';
@@ -80,7 +80,7 @@ const Services = () => {
         
         <div className="space-y-24">
           {servicesData.map((service, index) => (
-            <ServiceFeature
+            <AnimatedServiceFeature
               key={index}
               title={service.title}
               description={service.description}

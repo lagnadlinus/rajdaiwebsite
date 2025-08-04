@@ -163,3 +163,41 @@ export default ServiceCard;
 // I have passed props like title, description, and icon to customize each card.
 // I can also import and use this component in the Services section like this:
 // import ServiceCard from './ServiceCard';
+
+
+
+
+
+
+// src/components/Services.jsx
+import React from 'react';
+import AnimatedServiceFeature from "./AnimatedServiceFeature"; // ✅ Import the new animated component
+
+// ... all your service data imports and servicesData array
+
+const Services = () => {
+  return (
+    <section id="services" className="scroll-mt-24 py-section bg-brand-light text-brand-dark">
+      <div className="container max-w-6xl mx-auto px-4">
+        <h2 className="section-title text-brand-primary mb-4 text-center">Our Services</h2>
+        <p className="mb-12 text-lg text-gray-700 text-center max-w-2xl mx-auto">
+          Explore our full range of services, where we combine quality craftsmanship with a commitment to your home's unique needs.
+        </p>
+        
+        <div className="space-y-24">
+          {servicesData.map((service, index) => (
+            <AnimatedServiceFeature // ✅ Use the new animated component
+              key={index}
+              title={service.title}
+              description={service.description}
+              image={service.image}
+              reverse={index % 2 !== 0}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Services;

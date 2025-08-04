@@ -1,14 +1,24 @@
-// src/components/ServiceFeature.jsx
+
 import React from 'react';
+import { useInView } from 'react-intersection-observer';
 import Button from './Button'; 
 
-const ServiceFeature = ({ title, description, image, reverse }) => {
+const AnimatedServiceFeature = ({ title, description, image, reverse }) => {
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Animation only happens once
+    threshold: 0.2,    // Trigger when 20% of the element is visible
+  });
+
+  const animationClass = inView 
+    ? 'opacity-100 transform translate-y-0 transition-all duration-1000 ease-out'
+    : 'opacity-0 transform translate-y-16';
+    
   const containerClass = `flex flex-col md:flex-row items-center gap-12 py-12 ${
     reverse ? 'md:flex-row-reverse' : ''
   }`;
 
   return (
-    <div className={containerClass}>
+    <div ref={ref} className={`${containerClass} ${animationClass}`}>
       {/* Image Section */}
       <div className="w-full md:w-1/2 rounded-xl overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105">
         <img
@@ -32,4 +42,4 @@ const ServiceFeature = ({ title, description, image, reverse }) => {
   );
 };
 
-export default ServiceFeature;
+export default AnimatedServiceFeature;
