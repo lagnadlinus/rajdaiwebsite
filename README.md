@@ -60,13 +60,8 @@ rajdaiwebsite/
 </code> </pre>
 
 
-Have suggestions or want to contribute? Contact me:
-
 This project is still in progress and actively updated.
 
-Special Thanks to: 
-
-- Johannes Plenio for close up photo of Green Grass Field. (https://www.pexels.com/photo/closeup-photo-of-green-grass-field-1423601/)
-
-- FWStudio for Brown Wooden Floor photo. (https://www.pexels.com/photo/brown-wooden-floor-172292/)
+© 2025 Choden Landscaping & Handyman Services. All rights reserved.
+Website created by Nil Arc Vision
 

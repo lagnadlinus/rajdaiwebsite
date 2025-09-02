@@ -61,10 +61,10 @@ export default {
       },
 
       backgroundImage: {
-        'hero-pattern': "url('/src/assets/images/hero-bg.jpg')",
+        'hero-pattern': "url('/src/assets/images/hero-bg.webp')",
         'hero-gradient': "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7))",
-        'wood-texture': "url('/src/assets/images/wood-texture.jpg')",
-        'grass-texture': "url('/src/assets/images/grass.jpg')",
+        'wood-texture': "url('/src/assets/images/wood-texture.webp')",
+
         'logo': "url('/src/assets/images/logo.svg')",
       },
 

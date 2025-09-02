@@ -1,7 +1,6 @@
 
 
 // src/components/Hero.jsx
-import React from 'react';
 import Button from './Button'; // Import the Button component as it's used here
 
 const Hero = () => {
@@ -17,9 +16,9 @@ const Hero = () => {
         </h1>
 
         <p className="mt-4 text-lg md:text-xl text-gray-200">
-          Transforming Hobart's outdoor spaces with care and Quality.
+          Transforming Hobart's indoor and outdoor spaces with care and Quality.
         </p>
-        <Button href="#contact" className="mt-6 btn-primary">Call Us</Button>
+        <Button href="#contact" className="mt-6 btn-primary">Contact Us</Button>
       </div>
     </section>
   );

@@ -12,13 +12,13 @@ const App = () => {         {/* Declaring App with es6 const function */}
         <Header />  {/* Importing Header component from components folder */}
         <main>
 
-          <Hero />
+          <Hero />  {/* Importing Hero component from components folder */}
 
-          <Services />
+          <Services />  {/* Importing Services component from components folder */}
           
-          <About />
+          <About /> {/* Importing About component from components folder */}
 
-          <Contact />
+          <Contact />  {/* Importing Contact component from components folder */}
 
         </main>
       </div>  

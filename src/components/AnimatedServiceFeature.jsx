@@ -25,6 +25,7 @@ const AnimatedServiceFeature = ({ title, description, image, reverse }) => {
           src={image}
           alt={`A showcase of our ${title} service`}
           className="w-full h-72 lg:h-96 object-cover"
+          loading="lazy"
         />
       </div>
       

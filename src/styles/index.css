@@ -65,10 +65,7 @@ h3,
 /* -------------------------------
    Paragraphs & Text
 ---------------------------------- */
-p,
-.body {
-    @apply text-base text-gray-700 leading-relaxed;
-}
+
 
 a {
     @apply text-brand-primary transition hover:text-brand-accent;
@@ -97,9 +94,6 @@ a {
     scrollbar-width: none;
 }
 
-.no-scrollbar::-webkit-scrollbar {
-    display: none;
-}
 
 /* -------------------------------
    Hover Effects on Cards

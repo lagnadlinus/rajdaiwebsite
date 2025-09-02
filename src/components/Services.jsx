@@ -1,22 +1,24 @@
-// src/components/Services.jsx
-import React from 'react';
+
 import AnimatedServiceFeature from "./AnimatedServiceFeature";
 
-// ✅ Import all your service images
-import gardeningImage from '../assets/services/gardening.jpg';
-import landscapingImage from '../assets/services/landscaping.jpg';
-import concretingImage from '../assets/services/concreting.jpg';
-import handymanImage from '../assets/services/handyman.jpg';
-import glazingImage from '../assets/services/glazing.jpg';
-import securityDoorImage from '../assets/services/security-door.jpg';
-import slidingDoorImage from '../assets/services/sliding-door.jpg';
-import showerScreenImage from '../assets/services/shower-screen.jpg';
-import bathroomMirrorImage from '../assets/services/bathroom-mirror.jpg';
-import flyScreenImage from '../assets/services/fly-screen.jpg';
+// images import
+import fencingImage from '../assets/services/fencing.webp';
+import gardeningImage from '../assets/services/gardening.webp';
+import landscapingImage from '../assets/services/landscaping.webp';
+import concretingImage from '../assets/services/concreting.webp';
+import handymanImage from '../assets/services/handyman.webp';
+import glazingImage from '../assets/services/glazing.webp';
+import securityDoorImage from '../assets/services/security-door.webp';
+import flyScreenImage from '../assets/services/fly-screen.webp';
 
 
-// ✅ Define your service data in this component
 const servicesData = [
+  {
+    title: "Fencing",
+    image: fencingImage,
+    description: "We offer expert fencing solutions to enhance the security and aesthetic appeal of your property. Our services include the installation of various types of fences, such as timber, colorbond, etc. tailored to meet your specific needs and preferences."
+  },
+
   {
     title: "Gardening & Yard Maintenance",
     image: gardeningImage,
@@ -27,46 +29,36 @@ const servicesData = [
     image: landscapingImage,
     description: "We specialize in turning your vision into a reality with bespoke landscaping solutions. Our expertise includes garden design, installing new turf, and constructing durable retaining walls that enhance both the beauty and functionality of your property."
   },
-  {
-    title: "Concreting",
-    image: concretingImage,
-    description: "From practical driveways to stylish pathways and foundations, our concreting services are built to last. We deliver flawless finishes and structural integrity for residential and commercial projects of all sizes."
-  },
-  {
-    title: "Handyman Services",
-    image: handymanImage,
-    description: "For all your household repairs and installations, our professional handyman services are a reliable choice. We tackle general repairs, flat-pack furniture assembly, and various other fixes, saving you time and stress."
-  },
+  
   {
     title: "Glazing & Window Repair",
     image: glazingImage,
-    description: "We provide expert glazing and glass repair services, from replacing cracked window panes to installing new glass in doors. Our solutions are safe, efficient, and tailored to meet your specific needs."
+    description: "We provide expert glazing, and glass repair services, from broken windows, glass replacement, shower screen installation, sliding door, bathroom mirror and light installation. Our solutions are safe, professional, and tailored to meet your specific needs."
   },
+  
+  {
+    title: "Fly Screen Installation",
+    image: flyScreenImage,
+    description: "Enjoy fresh air without the worry of pests. We install durable fly screens on windows and doors, custom-fitted to your home for effective protection and ventilation."
+  },
+
   {
     title: "Security Door Installation",
     image: securityDoorImage,
     description: "Protect your home and family with our high-quality security door installations. We offer a range of secure, custom-fit doors that provide peace of mind without compromising on style."
   },
-  {
-    title: "Sliding Door & Window Replacement",
-    image: slidingDoorImage,
-    description: "Upgrade your property's aesthetics and energy efficiency with our seamless sliding door and window replacement services. We ensure a perfect fit and smooth operation for every installation."
+
+   {
+    title: "Concreting",
+    image: concretingImage,
+    description: "From practical driveways to stylish pathways and foundations, our concreting services are built to last. We deliver flawless finishes and structural integrity for residential and commercial projects of all sizes."
   },
+  
   {
-    title: "Shower Screen Installation",
-    image: showerScreenImage,
-    description: "Enhance your bathroom with a new, stylish shower screen. We offer professional installation of modern and durable shower screens, fitted perfectly to your bathroom’s layout."
+    title: "Handyman Services",
+    image: handymanImage,
+    description: "For all your household repairs and installations, our professional handyman services are a reliable choice. We tackle general repairs, flat-pack furniture assembly, and various other fixes, saving you time and stress."
   },
-  {
-    title: "Bathroom Mirror & Light Installation",
-    image: bathroomMirrorImage,
-    description: "Brighten your bathroom with our expert mirror and light installation services. We can add elegant, custom-sized mirrors and modern lighting fixtures to create a more functional and inviting space."
-  },
-  {
-    title: "Fly Screen Installation",
-    image: flyScreenImage,
-    description: "Enjoy fresh air without the worry of pests. We install durable fly screens on windows and doors, custom-fitted to your home for effective protection and ventilation."
-  }
 ];
 
 const Services = () => {
