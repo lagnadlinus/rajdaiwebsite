@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="section-title text-brand-primary mb-4">About Us</h2>
         
         <p className="mb-6 text-lg leading-relaxed">
-          At <strong>Choden Landscaping & Handyman Services</strong>, we bring over <strong>10 years of hands-on experience</strong> in transforming outdoor spaces into practical, beautiful environments. From turf laying to garden beds, concrete works to general repairs — we’re the team locals trust for quality workmanship and reliability.
+          At <strong>Choden Landscaping & Handyman Services</strong>, we bring over <strong>10 years of hands-on experience</strong> in transforming indoor and outdoor spaces into practical, beautiful environments. From turf laying to garden beds, concrete works to general repairs — we’re the team locals trust for quality workmanship and reliability.
         </p>
 
         <p className="mb-6 text-lg leading-relaxed">
